@@ -1,67 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="logo">Nathaniel Peirce</div>
-            <ul class="nav-links">
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                <div class=&rdquo;menu&rdquo;></div>
-                <div class="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="code">
-                        <a href="/">Code</a>
-                    <ul class="dropdown">
-                        <li><a href="htmlcode.html">html</a></li>
-                        <li><a href="javacode.html">java</a></li>
-                        <li><a href="csscode.html">css</a></li>
-                    </ul>
-                    <li><a href="about.html">About</a></li>
-                    <style>
-                        a:link {
-                          color: white;
-                          background-color: transparent;
-                          text-decoration: none;
-                        }
-                        a:visited {
-                          color: white;
-                          background-color: transparent;
-                          text-decoration: none;
-                        }
-                        a:hover {
-                          color: white;
-                          background-color: transparent;
-                          text-decoration: none;
-                        }
-                        a:active {
-                          color: white;
-                          background-color: transparent;
-                          text-decoration: none;
-                        }
-                        </style>
-                </li>
-                </div>
-            </ul>
-        </nav>
-    </body>
-    <footer>
-      <div class="footer-content">
-        <h3>Nathaniel Peirce</h3>
-        <p>Project for AP Computer Science Principles</p>
-        <ul class="socials">
-          <li><a href="#"><i class="Email"></i></a></li>
-          <li><a href="#"><i class="Google"></i></a></li>
+<html>
+  <head>
+    <title>Simple E-commerce Website</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Simple E-commerce Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
-      </div>
-      <div class="footer-bottom">
-        <p>copyright &copy;2023 Nathaniel Peirce. Designed by <span>Nathaniel Peirce</span></p>
-      </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <section id="featured-products">
+        <h2>Featured Products</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="product1.jpg" alt="Product 1">
+              <h3>Product 1</h3>
+              <p>$19.99</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="product2.jpg" alt="Product 2">
+              <h3>Product 2</h3>
+              <p>$29.99</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="product3.jpg" alt="Product 3">
+              <h3>Product 3</h3>
+              <p>$39.99</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="products">
+        <h2>Products</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="product1.jpg" alt="Product 1">
+              <h3>Product 1</h3>
+              <p>$19.99</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="product2.jpg" alt="Product 2">
+              <h3>Product 2</h3>
+              <p>$29.99</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="product3.jpg" alt="Product 3">
+              <h3>Product 3</h3>
+              <p>$39.99</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="product4.jpg" alt="Product 4">
+              <h3>Product 4</h3>
+              <p>$49.99</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 Simple E-commerce Website. All rights reserved.</p>
     </footer>
+  </body>
 </html>
